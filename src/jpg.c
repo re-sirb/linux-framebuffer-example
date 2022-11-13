@@ -50,7 +50,6 @@ struct imgRawImage* loadJpegImageFile(char* lpFilename)
 	NewImage->height = imgHeight;
 	NewImage->lpData = lpData;
 
-
 	while(info.output_scanline < info.output_height) {
 		lpRowBuffer[0] = (unsigned char *)(&lpData[3*info.output_width*info.output_scanline]);
 		jpeg_read_scanlines(&info, lpRowBuffer, 1);
