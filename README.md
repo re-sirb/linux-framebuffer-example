@@ -1,5 +1,5 @@
 # Linux framebuffer example
-A little code example to give a starting point for playing with the Linux framebuffer. It's fun to be able to get graphic output directly with relatively little effort and without the overhead of a GUI. This becomes particularly useful in the field of embedded systems.
+A little code example to give a starting point for playing with the Linux framebuffer. It's fun to be able to get graphic output directly with relatively little effort and without the overhead of a GUI. It's also quite fascinating how elegantly the Linux framebuffer glosses over the nightmare of interacting with graphics hardware.
 
 This code is intended as a starting point for playing around with the Linux framebuffer, so it doesn't contain any real error handling.
 
