@@ -147,6 +147,9 @@ int main()
 	//wait for new line command to exit program
 	char buffer[1];
 	fread(&buffer, sizeof(char), 1, stdin);
+	
+	//unmap fb
+	munmap(buf, len);
 
 	//switch console back to text-mode 
 	ioctl(console_0, KDSETMODE, KD_TEXT);
