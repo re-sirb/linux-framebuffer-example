@@ -5,6 +5,6 @@ This code is intended as a starting point for playing around with the Linux fram
 
 In order to avoid some frustration at the beginning, I would like to point out that it might not work if you are using X11. So run it from a terminal not running X Server. It might also be possible to install a dedicated framebuffer driver for use with X Server, but I haven't looked into that too much.
 
-libjpeg is needed to compile the program. Most Linux distributions should already ship with it.
+libjpeg is needed to compile this example. Most Linux distributions should already ship with it.
 
 Have fun!
